@@ -24,39 +24,24 @@ $moto = new Moto('Honda', 'CB 300F Twister', 2024, 300);
             <article class="cartao">
                 <span class="tipo">Carro</span>
                 
-                <h2>
-                    <?= htmlspecialchars($carro->getMarca() . ' ' . $carro->getModelo()) ?>
-                </h2>
+                <h2><?= htmlspecialchars($carro->getMarca() . ' ' . $carro->getModelo()) ?></h2>
                 
-                <p class="detalhe">
-                    Ano: <?= htmlspecialchars((string) $carro->getAno()) ?>
-                </p>
+                <p class="detalhe">Ano: <?= htmlspecialchars((string) $carro->getAno()) ?></p>
                 
-                <p class="detalhe">
-                    Portas: <?= htmlspecialchars((string) $carro->getQuantidadePortas()) ?>
-                </p>
+                <p class="detalhe">Portas: <?= htmlspecialchars((string) $carro->getQuantidadePortas()) ?></p>
                 
-                <p class="preco">
-                    Diária: R$ <?= number_format($carro->calcularDiaria(), 2, ',', '.') ?>
-                </p>
+                <p class="preco">Diária: R$ <?= number_format($carro->calcularDiaria(), 2, ',', '.') ?></p>
             </article>
 
             <article class="cartao">
                 <span class="tipo">Moto</span>
-                <h2>
-                    <?= htmlspecialchars($moto->getMarca() . ' ' . $moto->getModelo()) ?>
-                </h2>
+                <h2><?= htmlspecialchars($moto->getMarca() . ' ' . $moto->getModelo()) ?></h2>
 
-                <p class="detalhe">
-                    Ano: <?= htmlspecialchars((string) $moto->getAno()) ?>
-                </p>
+                <p class="detalhe">Ano: <?= htmlspecialchars((string) $moto->getAno()) ?></p>
                 
-                <p class="detalhe">
-                    Cilindradas: <?= htmlspecialchars((string) $moto->getCilindradas()) ?>
-                </p>
-                <p class="preco">
-                    Diária: R$ <?= number_format($moto->calcularDiaria(), 2, ',', '.') ?>
-                </p>
+                <p class="detalhe">Cilindradas: <?= htmlspecialchars((string) $moto->getCilindradas()) ?></p>
+              
+                <p class="preco">Diária: R$ <?= number_format($moto->calcularDiaria(), 2, ',', '.') ?></p>
             </article>
         </section>
     </main>
