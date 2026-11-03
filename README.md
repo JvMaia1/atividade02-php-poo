@@ -4,7 +4,7 @@ Projeto de catálogo de locação de veículos desenvolvido para fixação e apl
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura
 
 ```text
 atividade02-php-poo/
@@ -20,24 +20,10 @@ atividade02-php-poo/
 └── README.md              # Documentação básica do projeto
 ```
 
----
-
-## 🚀 Como Executar
-
-Inicie o servidor embutido do PHP na raiz do projeto:
-
-```bash
-php -S localhost:8000
-```
-
-Acesse em seu navegador: `http://localhost:8000`
-
----
-
-## 🧠 Workflow de Desenvolvimento
+## Workflow de Desenvolvimento
 
 O desenvolvimento foi conduzido através de um fluxo de **Pair Programming com validação ativa de domínio**:
 
 - **Construção incremental em blocos:** A IA atuou na geração do boilerplate e código das classes.
 - **Portões de entendimento:** O avanço entre as etapas (abstração, herança, polimorfismo e integração) só ocorreu após a confirmação objetiva do entendimento de cada mecanismo pelo desenvolvedor.
-- **Foco em absorção:** Economia de tempo em digitação manual com retenção cognitiva e domínio conceitual comprovados no [docs/aprendizado.md](docs/aprendizado.md).
+- **Foco em absorção:** Economia de tempo em digitação manual com retenção cognitiva e domínio conceitual registrando as palavras do editor em [docs/aprendizado.md](docs/aprendizado.md).
